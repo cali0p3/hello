@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
 	"strconv"
@@ -29,6 +30,7 @@ func main() {
 			iniciarMonitoramento()
 		case 2:
 			fmt.Println("Exibindo Logs...")
+			imprimeLogs()
 		case 0:
 			fmt.Println("Saindo do programa")
 			os.Exit(0)
@@ -73,7 +75,7 @@ func iniciarMonitoramento() {
 			fmt.Println("Testando site", i, ":", site)
 			testaSite(site)
 		}
-		fmt.Println("***Fim do Monitoramento***")
+		fmt.Println("***********************")
 		time.Sleep(delay * time.Second)
 		fmt.Println("")
 	}
@@ -129,7 +131,18 @@ func registraLog(site string, status bool) {
 		fmt.Println(err)
 	}
 	arquivo.WriteString(time.Now().Format("02/01/2006 15:04:05") + site + "- online: " + strconv.FormatBool(status) + "\n")
-			//https://go.dev/src/time/format.go
-			//https://pkg.go.dev/time
+	//https://go.dev/src/time/format.go
+	//https://pkg.go.dev/time
 	arquivo.Close()
+}
+
+func imprimeLogs() {
+
+	arquivo, err := ioutil.ReadFile("log.txt")
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	fmt.Println(string(arquivo))
 }
