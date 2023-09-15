@@ -1,4 +1,4 @@
-https://www.random-status-code.herokuapp.com
+https://random-status-code.herokuapp.com
 https://www.alura.com.br
 https://www.caelum.com.br
 http://www.eldorado.org.br

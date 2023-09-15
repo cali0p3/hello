@@ -1,0 +1,42 @@
+site-falso- online: false
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+http://www.eldorado.org.br- online: true
+http://www.google.com.br- online: true
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+http://www.eldorado.org.br- online: true
+http://www.google.com.br- online: true
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+http://www.eldorado.org.br- online: true
+http://www.google.com.br- online: true
+15/09/2023 01:43:05site-falso- online: false
+15/09/2023 01:43:09https://www.alura.com.br- online: true
+15/09/2023 01:43:09https://www.caelum.com.br- online: true
+15/09/2023 01:43:10http://www.eldorado.org.br- online: true
+15/09/2023 01:43:10http://www.google.com.br- online: true
+15/09/2023 01:43:16https://www.alura.com.br- online: true
+15/09/2023 01:43:27https://www.caelum.com.br- online: true
+15/09/2023 01:43:27http://www.eldorado.org.br- online: true
+15/09/2023 01:43:27http://www.google.com.br- online: true
+15/09/2023 01:43:33https://www.alura.com.br- online: true
+15/09/2023 01:43:34https://www.caelum.com.br- online: true
+15/09/2023 01:43:34http://www.eldorado.org.br- online: true
+15/09/2023 01:43:34http://www.google.com.br- online: true
+15/09/2023 01:44:28site-falso- online: false
+15/09/2023 01:44:31https://random-status-code.herokuapp.com- online: false
+15/09/2023 01:44:31https://www.alura.com.br- online: true
+15/09/2023 01:44:32https://www.caelum.com.br- online: true
+15/09/2023 01:44:32http://www.eldorado.org.br- online: true
+15/09/2023 01:44:33http://www.google.com.br- online: true
+15/09/2023 01:44:39https://random-status-code.herokuapp.com- online: false
+15/09/2023 01:44:39https://www.alura.com.br- online: true
+15/09/2023 01:44:39https://www.caelum.com.br- online: true
+15/09/2023 01:44:40http://www.eldorado.org.br- online: true
+15/09/2023 01:44:40http://www.google.com.br- online: true
+15/09/2023 01:44:46https://random-status-code.herokuapp.com- online: false
+15/09/2023 01:44:46https://www.alura.com.br- online: true
+15/09/2023 01:44:46https://www.caelum.com.br- online: true
+15/09/2023 01:44:47http://www.eldorado.org.br- online: true
+15/09/2023 01:44:47http://www.google.com.br- online: true
